@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Alura MIDI</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="images/bateria.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <script src = "main.js"></script>
+
+</head>
+<body>
+
+    <h1>Alura Midi</h1>
+
+    <section class="teclado">
+        <button onclick = "alert('Gato')"class="tecla tecla_gato">Gato</button>
+        <button onclick = "alert('cachorro')"class="tecla tecla_cachorro">Cachorro</button>
+        <button onclick = "alert('leao')"class="tecla tecla_leao">Leao</button>
+
+        <button onclick = "alert('Passaro')"class="tecla tecla_passaro">Passaro</button>
+        <button onclick = "alert('Golfinho')"class="tecla tecla_golfinho">Golfinho</button>
+        <button onclick = "alert('lobo')"class="tecla tecla_lobo">Lobo</button>
+
+        <button onclick = "alert('Sapo')"class="tecla tecla_sapo">Sapo</button>
+        <button onclick = "alert('Cavalo')"class="tecla tecla_cavalo">Cavalo</button>
+        <button onclick = "alert('elefante')"class="tecla tecla_elefante">Elefante</button>
+    </section>
+
+    <audio src="sounds/gato-miau.wav" id="som_tecla_gato"></audio>
+    <audio src="sounds/cachorro.wav" id="som_tecla_cachorro"></audio>
+    <audio src="sounds/leao.wav" id="som_tecla_baleia"></audio>
+    <audio src="sounds/bem-te-vi.wav" id="som_tecla_passaro"></audio>
+    <audio src="sounds/golfinho.wav" id="som_tecla_golfinho"></audio>
+    <audio src="sounds/lobo.wav" id="som_tecla_lobo"></audio>
+    <audio src="sounds/som-de-sapo.wav" id="som_tecla_sapo"></audio>
+    <audio src="sounds/cavalo.wav" id="som_tecla_cavalo"></audio>
+    <audio src="sounds/elefante.wav" id="som_tecla_elefante"></audio>
+
+</body>
+</html>
